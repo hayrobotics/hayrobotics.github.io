@@ -1,10 +1,20 @@
-/* MOBILE */
-header {
-	position: relative;
+html, body {
+	font-family: 'Saira', sans-serif;
+	font-size: 16px;
+	text-align: center;
 }
 
-header .fade-overlay {
-	background-color: rgba(0, 0, 0, 0.5);
+/* MOBILE */
+.jumbotron {
+	position: relative;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.jumbotron .fade-overlay {
+	background-color: rgba(0, 0, 0, 0.6);
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -12,65 +22,54 @@ header .fade-overlay {
 	right: 0;
 }
 
-header .container {
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+.jumbotron .container {
+	position: relative;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
 	color: white;
-}
-
-header .text-center {
-	position: relative;
-}
-
-header h1 {
-	position: relative;
-	font-family: 'Saira', sans-serif;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px; 
 }
 
 section {
-	text-align: center;
+	font-size: 1.2rem;
+	text-align: left;
 	margin-bottom: 20px;
 }
 
-section.news-section {
-
+section.main {
+	font-size: 0.8rem;
+	padding: 10px;
 }
 
-section ul {
-	text-align: left;
-}
-
-section.pic-section {
-	text-align: center;
-}
-
-section figure {
-	margin-bottom: 10px;
-	display: inline-block;
+section.contact {
+	font-size: 1rem;
+	background-color: #ccc;
+	padding: 5px;
+	margin: 10px;
 }
 
 footer {
-	background-color: black;
 	padding: 5px;
 }
 
-footer a {
-	color: #fff;
-}
-
 /* DESKTOP */
-@media only screen and (min-width: 768px) {
-	section.news-section {
-		float: left;
-
+@media (min-width: 768px) {
+	.jumbotron {
+		padding-top: 48px;
+		padding-bottom: 48px;
 	}
-	section.pic-section {
+	section.main {
+		float: left;
+		width: 65%;
+		font-size: 1.2rem;
+	}
+	section.contact {
 		float: right;
+		width: 30%;
+		padding: 10px;
 	}
 	footer {
 		clear: both;
