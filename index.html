@@ -4,42 +4,65 @@
 	<title>Robotics @ Hayward High</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
 </head>
 <body>
-	<header class="text-center">
-		<h1>Hayward High Robotics</h1>
+	<header>
+		<div class="fade-overlay"></div>
+		<div class="container" style="background-image: url('assets/images/working.jpg')">
+			<h1>
+				<span id="font-weight:600">HAYWARD HIGH ROBOTICS</span>
+				<br>
+				<span style="font-size: .5em; font-weight: 400">Put your engineering skills to good use.</span>
+			</h1>
+			<div class="text-center">
+				<a href="about.html" class="btn btn-primary">Learn More</a>
+			</div>
+		</div>
 	</header>
-	<div class="container">
-		<section>
-			<h3>What we do</h3>
-			<p>We meet up every Friday after school to learn about robotics and programming, and to prepare for our competitions that will take place towards the end of the year.</p>
-			<h3>How it Works</h3>
-			<p>Each of our students is involved in one of our two competitions. The first semester is dedicated to teaching the basic principles of robotics. The second semester is dedicated to the actual strategizing, building, and programming of our entries for our competitions.
-			<h3>Our competitions</h3>
-			<p>We have two competitions that we prepare for simultaneously. Our first is the Botball Regional Tournament, hosted at NASA Ames. We will be entering two fully autonomous robots that must gain as many points as possible on the Gameboard before 60 seconds is up.</p>
-			<p>Our second competition is the Pioneers in Engineering (PiE) Tournement, hosted at UC Berkeley. We will be entering one remote-controlled robot that must perform a series of tasks under 2 minutes.</p>
-			<h3>Why join?</h3>
-			<ul>
-				<li>Being part of this club and these competitions looks great on an application!</li>
-				<li>You can gain important skills in not just coding and engineering, but also problem solving, writing, and leadership.</li>
-				<li>Why not? It's fun!</li>
-			</ul>
-			<h3>How can I join?</h3>
-			<p>To apply, fill out <a href="">this quick application</a>. We will get back to you. Remember, anyone can apply -- no experience needed. <strong>We meet Fridays afterscool in K4 (and occasionally E5). </strong></p>
-		</section>
-		<aside>
-			<strong>News</strong>
-			<ul>
-				<li>Yesterday, was.</li>
-				<li>Today, is.</li>
-				<li>Tomorrow, might be.</li>
-			</ul>
-		</aside>
-	</div>
+	<section class="news-section">
+		<h3 style="font-family: 'Saira', sans-serif">News</h3>
+		<ul>
+			<li>Yesterday, was.</li>
+			<li>Today, is.</li>
+			<li>Tomorrow, might be.</li>
+		</ul>
+	</section>
+
+	<section class="pic-section container">
+		<h3 style="font-family: 'Saira', sans-serif;">Pictures</h3>
+		<div class="row">
+			<figure class="col-sm-6">
+				<div style="width: 100px; height: 100px; background-color: gray"></div>
+			</figure>
+			<figure class="col-sm-6">
+				<div style="width: 100px; height: 100px; background-color: gray"></div>
+			</figure>
+		</div>
+		<div class="row">
+			<figure class="col-sm-6">
+				<div style="width: 100px; height: 100px; background-color: gray"></div>
+			</figure>
+			<figure class="col-sm-6">
+				<div style="width: 100px; height: 100px; background-color: gray"></div>
+			</figure>
+		</div>
+		<div class="text-center">
+			<a href="pics.html" class="btn btn-primary">More</a>
+		</div>
+		<!--
+		<figure>
+			<img src=" file path goes here ">
+		</figure>
+		-->
+	</section>
+
 	<footer>
-		<a href="haywardhigh.net">Hayward High Website</a>
+		<a href="http://www.haywardhigh.net">Hayward High</a> 
+		<br>
+		<a href="github.com/hayrobotics">Our Github</a>
 	</footer>
-	
+
 </body>
 </html>
