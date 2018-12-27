@@ -48,9 +48,9 @@ section.main {
 section.contact {
 	font-size: 1rem;
 	background-color: #ccc;
-	/* padding: 5px;
+	padding: 5px;
 	margin: 10px;
-	margin-top: 30px; */
+	/*margin-top: 30px; */
 }
 
 .pictures {
@@ -59,6 +59,7 @@ section.contact {
 	width: 100%;
 }
 .pictures img {
+	width: 30%;
 	flex: 1;
 	align-self: center;
 }
@@ -100,6 +101,9 @@ footer a {
 	.pictures {
 		flex-direction: column;
 		justify-content: space-between;
+		width: 100%;
+	}
+	.pictures img {
 		width: 100%;
 	}
 
